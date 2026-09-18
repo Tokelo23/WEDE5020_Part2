@@ -1,5 +1,4 @@
 # Furnimart
-# Furnimart
 ## Project Overview
 -History
 Furnimart is a furniture store that started operating in 2010 and is based in Sandton, South Africa. The store sells top-quality and affordable furniture for homes and offices. We sell products like couches, beds, chairs, mirrors, dining tables, TV stands, TV’s, wardrobes, lamps, office desks and chairs. Furnimart is SA’s no.1 recommended furniture store when it comes to the best and top-notch furniture.
@@ -62,7 +61,7 @@ The website will have 6 main pages:
 -Services
 -Enquiry
 -Contact
-##Changelog
+## Changelog
 Part 1:
 -I made the navigation menu for all the pages.
 -The products page has images of the furniture and their prices.
