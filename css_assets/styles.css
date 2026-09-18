@@ -1,0 +1,198 @@
+/*css Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    color:goldenrod;
+    padding:  20px;
+}
+
+p{
+    font-size: 25px;
+    padding:  20px;
+}
+
+nav{
+    background-color:chocolate;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: rgb(57, 57, 230);
+    /*display:block;*/
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.shop-btn {
+    background-color:gold;
+    color: white;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    background-color:orange;
+}
+
+h2{
+    padding: 30px;
+    color:goldenrod;
+}
+
+.responsive-image{
+    width:100%;
+    height: auto;
+
+}
+
+header{
+    background-color:tan;
+}
+
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container div{
+    background-color:darkslateblue;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+
+h3{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.hero-img{
+    width: 100%;
+    height: auto;
+
+}
+
+img{
+    padding:8px;
+}
+
+/*media query for a tablet*/
+@media screen and (max-width: 768px){
+    body{
+        background-color:white;
+    }
+    .container{
+        grid-template-columns: auto auto;
+    }
+
+    .container div{
+        font-size: 20px;
+        padding: 15px;
+    }
+    nav ul{
+        display: block;
+    }
+    nav ul li a{
+        padding: 10px;
+        font-size: 15px;
+        display: block;
+    }
+
+    h1{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    h2{
+        font-size: 30px;
+        padding: 10px;
+
+    }
+
+    h3{
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    p{
+        font-size: 20px;
+        padding:  15px;
+    }
+}    
+
+/*media query for a smartphone*/
+@media  screen and (max-width: 480px) {
+    body{
+        background-color:white;
+    }
+    .container{
+        grid-template-columns: auto ;
+    }
+
+    .container div{
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    nav ul{
+        display: block;
+    }
+
+     nav ul li a{
+        padding: 8px;
+        font-size: 10px;
+        display: block;
+    }
+    
+    h1{
+        font-size: 20px;
+        padding: 8px;
+    }
+
+     h2{
+        font-size: 20px;
+        padding: 8px;
+
+    }
+
+    h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    p{
+        font-size: 15px;
+        padding:  12px;
+    }
+    
+}
+
+
+
