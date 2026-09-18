@@ -81,3 +81,7 @@ Part 2:
 ChatGPT-Gemini
 www.sedgarshome.co.za
 Open AI. 2026. ChatGPT. Available at: https://chatgpt.com/c/6a67e111-b560-83ea-b646-00ea8fa8702a /[Accessed: 16 September 2026].
+<img width="507" height="690" alt="Tablet size" src="https://github.com/user-attachments/assets/7834975e-73eb-46d8-8632-850be4507027" />
+<img width="1917" height="936" alt="Desktop size" src="https://github.com/user-attachments/assets/7d3aaaad-321b-4613-95d1-422860c51442" />
+<img width="380" height="841" alt="Smartphone size" src="https://github.com/user-attachments/assets/3953baa6-1c89-4fe3-add3-cd8423081760" />
+
